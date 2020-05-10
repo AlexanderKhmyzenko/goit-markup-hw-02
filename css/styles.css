@@ -316,4 +316,5 @@ a {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
