@@ -13,11 +13,19 @@
   --portfolio-bg-color: #ffffff;
 }
 
-/* @import "./normalize.css"; */
-
 /* CSS для вкладки Студия (index.html)*/
+html {
+  box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 .page {
+  /* font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif; */
   font-family: Roboto, sans-serif;
   font-style: normal;
   color: var(--primary-text-color);
